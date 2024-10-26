@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(36, 35, 35);
+}
+
+h1{
+  text-align: center;
+  color: aqua;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  margin-top: 10px;
+}
+
+.content {
+  border: 1px solid white;
+  border-radius: 15px;
+  height: 650px;
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  padding: 10px;
+
+}
+
+.leftBar {
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.rightBar{
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.pets{
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.poroda{
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.pets {
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+}
+
+.pets.selected {
+  background-color: rgba(255, 255, 255, 0.125);
+  font-weight: bold;
+}
